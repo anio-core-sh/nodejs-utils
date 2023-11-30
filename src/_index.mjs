@@ -7,7 +7,9 @@ import isRegularDirectorySync_impl from "./fs/isRegularDirectorySync.fn.mjs"
 import isRegularFileSync_impl from "./fs/isRegularFileSync.fn.mjs"
 import readFileJSONSync_impl from "./fs/readFileJSONSync.fn.mjs"
 import readFileStringSync_impl from "./fs/readFileStringSync.fn.mjs"
+import remove_impl from "./fs/remove.fn.mjs"
 import removeDirectorySync_impl from "./fs/removeDirectorySync.fn.mjs"
+import removeFileSync_impl from "./fs/removeFileSync.fn.mjs"
 import writeFileAtomicSync_impl from "./fs/writeFileAtomicSync.fn.mjs"
 import writeJSONFileAtomicSync_impl from "./fs/writeJSONFileAtomicSync.fn.mjs"
 import randomIdentifierSync_impl from "./util/randomIdentifierSync.fn.mjs"
@@ -20,7 +22,9 @@ export const isRegularDirectorySync = isRegularDirectorySync_impl;
 export const isRegularFileSync = isRegularFileSync_impl;
 export const readFileJSONSync = readFileJSONSync_impl;
 export const readFileStringSync = readFileStringSync_impl;
+export const remove = remove_impl;
 export const removeDirectorySync = removeDirectorySync_impl;
+export const removeFileSync = removeFileSync_impl;
 export const writeFileAtomicSync = writeFileAtomicSync_impl;
 export const writeJSONFileAtomicSync = writeJSONFileAtomicSync_impl;
 export const randomIdentifierSync = randomIdentifierSync_impl;
@@ -34,7 +38,9 @@ export default {
     isRegularFileSync,
     readFileJSONSync,
     readFileStringSync,
+    remove,
     removeDirectorySync,
+    removeFileSync,
     writeFileAtomicSync,
     writeJSONFileAtomicSync,
     randomIdentifierSync
