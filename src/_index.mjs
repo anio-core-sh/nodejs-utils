@@ -1,4 +1,5 @@
 /* Warning! This file was automatically created! */
+import chmodSync_impl from "./fs/chmodSync.fn.mjs"
 import copyDirectorySync_impl from "./fs/copyDirectorySync.fn.mjs"
 import createDirectorySync_impl from "./fs/createDirectorySync.fn.mjs"
 import isDirectorySync_impl from "./fs/isDirectorySync.fn.mjs"
@@ -14,6 +15,7 @@ import writeFileAtomicSync_impl from "./fs/writeFileAtomicSync.fn.mjs"
 import writeJSONFileAtomicSync_impl from "./fs/writeJSONFileAtomicSync.fn.mjs"
 import randomIdentifierSync_impl from "./util/randomIdentifierSync.fn.mjs"
 
+export const chmodSync = chmodSync_impl;
 export const copyDirectorySync = copyDirectorySync_impl;
 export const createDirectorySync = createDirectorySync_impl;
 export const isDirectorySync = isDirectorySync_impl;
@@ -30,6 +32,7 @@ export const writeJSONFileAtomicSync = writeJSONFileAtomicSync_impl;
 export const randomIdentifierSync = randomIdentifierSync_impl;
 
 export default {
+    chmodSync,
     copyDirectorySync,
     createDirectorySync,
     isDirectorySync,
