@@ -1,0 +1,24 @@
+{
+  "name": "@anio-core-sh/nodejs-utils",
+  "version": "0.0.1",
+  "description": "",
+  "exports": {
+    ".": {
+      "import": "./src/_index.mjs"
+    },
+    "./fs": {
+      "import": "./src/fs/_index.mjs"
+    },
+    "./util": {
+      "import": "./src/util/_index.mjs"
+    }
+  },
+  "scripts": {
+    "prepare": "./build.sh"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@anio-core-sh/libgen": "^0.0.1"
+  }
+}
