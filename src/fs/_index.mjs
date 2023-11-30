@@ -24,15 +24,15 @@ export const writeFileAtomicSync = writeFileAtomicSync_impl;
 export const writeJSONFileAtomicSync = writeJSONFileAtomicSync_impl;
 
 export default {
-   copyDirectorySync,
-   createDirectorySync,
-   isDirectorySync,
-   isFileSync,
-   isRegularDirectorySync,
-   isRegularFileSync,
-   readFileJSONSync,
-   readFileStringSync,
-   removeDirectorySync,
-   writeFileAtomicSync,
-   writeJSONFileAtomicSync
+    copyDirectorySync,
+    createDirectorySync,
+    isDirectorySync,
+    isFileSync,
+    isRegularDirectorySync,
+    isRegularFileSync,
+    readFileJSONSync,
+    readFileStringSync,
+    removeDirectorySync,
+    writeFileAtomicSync,
+    writeJSONFileAtomicSync
 }

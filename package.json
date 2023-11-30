@@ -19,6 +19,6 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@anio-core-sh/libgen": "^0.0.1"
+    "@anio-core-sh/libgen": "^0.0.2"
   }
 }
