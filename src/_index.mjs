@@ -14,6 +14,7 @@ import removeDirectorySync_impl from "./fs/removeDirectorySync.fn.mjs"
 import removeFileSync_impl from "./fs/removeFileSync.fn.mjs"
 import writeFileAtomicSync_impl from "./fs/writeFileAtomicSync.fn.mjs"
 import writeJSONFileAtomicSync_impl from "./fs/writeJSONFileAtomicSync.fn.mjs"
+import parseCommandLineArgs_impl from "./util/parseCommandLineArgs.fn.mjs"
 import randomIdentifierSync_impl from "./util/randomIdentifierSync.fn.mjs"
 
 export const chmodSync = chmodSync_impl;
@@ -31,6 +32,7 @@ export const removeDirectorySync = removeDirectorySync_impl;
 export const removeFileSync = removeFileSync_impl;
 export const writeFileAtomicSync = writeFileAtomicSync_impl;
 export const writeJSONFileAtomicSync = writeJSONFileAtomicSync_impl;
+export const parseCommandLineArgs = parseCommandLineArgs_impl;
 export const randomIdentifierSync = randomIdentifierSync_impl;
 
 export default {
@@ -49,5 +51,6 @@ export default {
     removeFileSync,
     writeFileAtomicSync,
     writeJSONFileAtomicSync,
+    parseCommandLineArgs,
     randomIdentifierSync
 }
