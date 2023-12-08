@@ -2,6 +2,7 @@
 import chmodSync_impl from "./fs/chmodSync.fn.mjs"
 import copyDirectorySync_impl from "./fs/copyDirectorySync.fn.mjs"
 import createDirectorySync_impl from "./fs/createDirectorySync.fn.mjs"
+import getTypeOfPathSync_impl from "./fs/getTypeOfPathSync.fn.mjs"
 import isDirectorySync_impl from "./fs/isDirectorySync.fn.mjs"
 import isFileSync_impl from "./fs/isFileSync.fn.mjs"
 import isRegularDirectorySync_impl from "./fs/isRegularDirectorySync.fn.mjs"
@@ -18,6 +19,7 @@ import randomIdentifierSync_impl from "./util/randomIdentifierSync.fn.mjs"
 export const chmodSync = chmodSync_impl;
 export const copyDirectorySync = copyDirectorySync_impl;
 export const createDirectorySync = createDirectorySync_impl;
+export const getTypeOfPathSync = getTypeOfPathSync_impl;
 export const isDirectorySync = isDirectorySync_impl;
 export const isFileSync = isFileSync_impl;
 export const isRegularDirectorySync = isRegularDirectorySync_impl;
@@ -35,6 +37,7 @@ export default {
     chmodSync,
     copyDirectorySync,
     createDirectorySync,
+    getTypeOfPathSync,
     isDirectorySync,
     isFileSync,
     isRegularDirectorySync,
