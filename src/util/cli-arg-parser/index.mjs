@@ -42,9 +42,7 @@ export default async function a(argv, config = null) {
 		options: {}
 	}
 
-	// first two args are usually
-	// node.bin + script name
-	let args = argv.slice(2)
+	let args = argv.slice(0)
 	let arg = null
 	let stop_parsing = false
 
