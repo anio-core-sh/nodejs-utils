@@ -35,7 +35,7 @@ async function handleOption({name, value}, config, ctx) {
 	)
 }
 
-export default async function a(argv, config = null) {
+export default async function(argv, config = null) {
 	let ret = {
 		flags: [],
 		operands: [],
@@ -63,8 +63,22 @@ export default async function a(argv, config = null) {
 		}
 		// option
 		else if (arg.startsWith("--")) {
-			const option_name = arg.slice(2)
-			const option_value = args.length ? args.shift() : null
+			let option_name = arg.slice(2)
+			let option_value = null
+
+			// check for --option=<value> case
+			if (option_name.includes("=")) {
+				let tmp = option_name
+
+				option_name = tmp.slice(0, tmp.indexOf("="))
+				option_value = tmp.slice(tmp.indexOf("=") + 1)
+
+				if (!option_value.length) {
+					option_value = null
+				}
+			} else if (args.length) {
+				option_value = args.shift()
+			}
 
 			await handleOption({
 				name: option_name,
