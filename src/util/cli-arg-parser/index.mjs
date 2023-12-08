@@ -113,5 +113,15 @@ export default async function(argv, config = null) {
 		}
 	}
 
+	if (config && "required_options" in config) {
+		const required_options = config.required_options
+
+		for (const required_option of required_options) {
+			if (!(required_option in ret.options)) {
+				throw new Error(`--${required_option}: option required.`)
+			}
+		}
+	}
+
 	return ret
 }
