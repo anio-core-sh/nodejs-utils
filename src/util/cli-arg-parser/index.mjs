@@ -97,5 +97,21 @@ export default async function(argv, config = null) {
 		}
 	}
 
+	if (config && "max_operands" in config) {
+		const max_operands = config.max_operands
+
+		if (ret.operands.length > max_operands) {
+			throw new Error(`Too many operands.`)
+		}
+	}
+
+	if (config && "min_operands" in config) {
+		const min_operands = config.min_operands
+
+		if (min_operands > ret.operands.length) {
+			throw new Error(`Too few operands.`)
+		}
+	}
+
 	return ret
 }
