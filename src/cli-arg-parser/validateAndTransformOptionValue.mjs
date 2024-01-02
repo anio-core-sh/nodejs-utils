@@ -1,5 +1,5 @@
 import fs from "node:fs/promises"
-import getTypeOfPathSync from "../../fs/getTypeOfPathSync.fn.mjs"
+import getTypeOfPathSync from "../export/fs/getTypeOfPathSync.mjs"
 
 export default async function(value, ctx) {
 	// custom function

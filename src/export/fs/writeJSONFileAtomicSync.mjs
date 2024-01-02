@@ -1,4 +1,4 @@
-import writeFileAtomicSync from "./writeFileAtomicSync.fn.mjs"
+import writeFileAtomicSync from "./writeFileAtomicSync.mjs"
 
 function _writeJSONFileAtomic(file, data, human_readable) {
 	let str

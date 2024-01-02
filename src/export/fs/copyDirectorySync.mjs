@@ -1,4 +1,4 @@
-import scandir from "./_scandir.mjs"
+import scandir from "../../fs_scandir.mjs"
 import path from "node:path"
 import fs from "node:fs"
 

@@ -1,6 +1,6 @@
 import fs from "node:fs"
 import path from "node:path"
-import randomIdentifierSync from "../util/randomIdentifierSync.fn.mjs"
+import randomIdentifierSync from "../util/randomIdentifierSync.mjs"
 
 export default function writeFileAtomicSync(file, data) {
 	const parent_dir = path.dirname(file)

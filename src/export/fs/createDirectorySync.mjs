@@ -1,6 +1,6 @@
 import fs from "node:fs"
-import isDirectorySync from "./isDirectorySync.fn.mjs"
-import pathFromArgs from "./_pathFromArgs.mjs"
+import isDirectorySync from "./isDirectorySync.mjs"
+import pathFromArgs from "../../fs_pathFromArgs.mjs"
 
 export default function createDirectorySync(...args) {
 	const path = pathFromArgs(args)

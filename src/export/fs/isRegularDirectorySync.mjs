@@ -1,5 +1,5 @@
 import fs from "node:fs"
-import pathFromArgs from "./_pathFromArgs.mjs"
+import pathFromArgs from "../../fs_pathFromArgs.mjs"
 
 export default function isRegularDirectorySync(...args) {
 	const path = pathFromArgs(args)
