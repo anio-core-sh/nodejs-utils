@@ -2,7 +2,7 @@ import scandir from "../../fs_scandir.mjs"
 import path from "node:path"
 import fs from "node:fs"
 
-export default function removeDirectorySync(dir_path) {
+export default function(dir_path) {
 	const entries = scandir.reverse(dir_path)
 
 	for (const entry of entries) {

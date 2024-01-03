@@ -2,7 +2,7 @@ import scandir from "../../fs_scandir.mjs"
 import path from "node:path"
 import fs from "node:fs"
 
-export default function copyDirectorySync(src, dst) {
+export default function(src, dst) {
 	fs.mkdirSync(dst)
 
 	const entries = scandir(src)

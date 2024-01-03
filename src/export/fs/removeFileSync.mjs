@@ -1,5 +1,5 @@
 import fs from "node:fs"
 
-export default function removeFileSync(path) {
+export default function(path) {
 	fs.unlinkSync(path)
 }

@@ -1,7 +1,7 @@
 import fs from "node:fs"
 import pathFromArgs from "../../fs_pathFromArgs.mjs"
 
-export default function isRegularFileSync(...args) {
+export default function(...args) {
 	const path = pathFromArgs(args)
 
 	try {
