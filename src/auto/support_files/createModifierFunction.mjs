@@ -1,4 +1,4 @@
-/* Warning: this file was automatically created by anio-jsbundler v0.5.1 */
+/* Warning: this file was automatically created by anio-jsbundler v0.5.2 */
 /* You should commit this file to source control */
 
 import createNamedAnonymousFunction from "./createNamedAnonymousFunction.mjs"
