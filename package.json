@@ -4,13 +4,13 @@
   "description": "",
   "exports": {
     ".": {
-      "import": "./src/_index.mjs"
+      "import": "./build/library.mjs"
     },
     "./fs": {
-      "import": "./src/fs/_index.mjs"
+      "import": "./build/submodule/fs.mjs"
     },
     "./util": {
-      "import": "./src/util/_index.mjs"
+      "import": "./build/submodule/util.mjs"
     }
   },
   "scripts": {
