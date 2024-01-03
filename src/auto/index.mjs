@@ -34,14 +34,16 @@ import {
     fs$removeDirectorySyncFactory             as ba,
     fs$removeFileSync                         as bb,
     fs$removeFileSyncFactory                  as bc,
-    fs$writeFileAtomicSync                    as bd,
-    fs$writeFileAtomicSyncFactory             as be,
-    fs$writeJSONFileAtomicSync                as bf,
-    fs$writeJSONFileAtomicSyncFactory         as bg,
-    util$parseCommandLineArgs                 as bh,
-    util$parseCommandLineArgsFactory          as bi,
-    util$randomIdentifierSync                 as bj,
-    util$randomIdentifierSyncFactory          as bk
+    fs$scandirSync                            as bd,
+    fs$scandirSyncFactory                     as be,
+    fs$writeFileAtomicSync                    as bf,
+    fs$writeFileAtomicSyncFactory             as bg,
+    fs$writeJSONFileAtomicSync                as bh,
+    fs$writeJSONFileAtomicSyncFactory         as bi,
+    util$parseCommandLineArgs                 as bj,
+    util$parseCommandLineArgsFactory          as bk,
+    util$randomIdentifierSync                 as bl,
+    util$randomIdentifierSyncFactory          as bm
 } from "./library.mjs";
 
 /* Generic library exports */
@@ -75,14 +77,16 @@ export const fs$removeDirectorySync            = z;
 export const fs$removeDirectorySyncFactory     = ba;
 export const fs$removeFileSync                 = bb;
 export const fs$removeFileSyncFactory          = bc;
-export const fs$writeFileAtomicSync            = bd;
-export const fs$writeFileAtomicSyncFactory     = be;
-export const fs$writeJSONFileAtomicSync        = bf;
-export const fs$writeJSONFileAtomicSyncFactory = bg;
-export const util$parseCommandLineArgs         = bh;
-export const util$parseCommandLineArgsFactory  = bi;
-export const util$randomIdentifierSync         = bj;
-export const util$randomIdentifierSyncFactory  = bk;
+export const fs$scandirSync                    = bd;
+export const fs$scandirSyncFactory             = be;
+export const fs$writeFileAtomicSync            = bf;
+export const fs$writeFileAtomicSyncFactory     = bg;
+export const fs$writeJSONFileAtomicSync        = bh;
+export const fs$writeJSONFileAtomicSyncFactory = bi;
+export const util$parseCommandLineArgs         = bj;
+export const util$parseCommandLineArgsFactory  = bk;
+export const util$randomIdentifierSync         = bl;
+export const util$randomIdentifierSyncFactory  = bm;
 
 export default {
     /* Generic library exports */
@@ -116,12 +120,14 @@ export default {
     fs$removeDirectorySyncFactory              : ba,
     fs$removeFileSync                          : bb,
     fs$removeFileSyncFactory                   : bc,
-    fs$writeFileAtomicSync                     : bd,
-    fs$writeFileAtomicSyncFactory              : be,
-    fs$writeJSONFileAtomicSync                 : bf,
-    fs$writeJSONFileAtomicSyncFactory          : bg,
-    util$parseCommandLineArgs                  : bh,
-    util$parseCommandLineArgsFactory           : bi,
-    util$randomIdentifierSync                  : bj,
-    util$randomIdentifierSyncFactory           : bk
+    fs$scandirSync                             : bd,
+    fs$scandirSyncFactory                      : be,
+    fs$writeFileAtomicSync                     : bf,
+    fs$writeFileAtomicSyncFactory              : bg,
+    fs$writeJSONFileAtomicSync                 : bh,
+    fs$writeJSONFileAtomicSyncFactory          : bi,
+    util$parseCommandLineArgs                  : bj,
+    util$parseCommandLineArgsFactory           : bk,
+    util$randomIdentifierSync                  : bl,
+    util$randomIdentifierSyncFactory           : bm
 };

@@ -77,22 +77,27 @@ import m from "../export/fs/removeFileSync.mjs"
 export const fs$removeFileSync = wrapFunction("fs$removeFileSync", m);
 export const fs$removeFileSyncFactory = wrapFactory("fs$removeFileSync", function fs$removeFileSyncFactory(new_context) { return m; });
 
+/* fs/scandirSync */
+import n from "../export/fs/scandirSync.mjs"
+export const fs$scandirSync = wrapFunction("fs$scandirSync", n);
+export const fs$scandirSyncFactory = wrapFactory("fs$scandirSync", function fs$scandirSyncFactory(new_context) { return n; });
+
 /* fs/writeFileAtomicSync */
-import n from "../export/fs/writeFileAtomicSync.mjs"
-export const fs$writeFileAtomicSync = wrapFunction("fs$writeFileAtomicSync", n);
-export const fs$writeFileAtomicSyncFactory = wrapFactory("fs$writeFileAtomicSync", function fs$writeFileAtomicSyncFactory(new_context) { return n; });
+import o from "../export/fs/writeFileAtomicSync.mjs"
+export const fs$writeFileAtomicSync = wrapFunction("fs$writeFileAtomicSync", o);
+export const fs$writeFileAtomicSyncFactory = wrapFactory("fs$writeFileAtomicSync", function fs$writeFileAtomicSyncFactory(new_context) { return o; });
 
 /* fs/writeJSONFileAtomicSync */
-import o from "../export/fs/writeJSONFileAtomicSync.mjs"
-export const fs$writeJSONFileAtomicSync = wrapFunction("fs$writeJSONFileAtomicSync", o);
-export const fs$writeJSONFileAtomicSyncFactory = wrapFactory("fs$writeJSONFileAtomicSync", function fs$writeJSONFileAtomicSyncFactory(new_context) { return o; });
+import p from "../export/fs/writeJSONFileAtomicSync.mjs"
+export const fs$writeJSONFileAtomicSync = wrapFunction("fs$writeJSONFileAtomicSync", p);
+export const fs$writeJSONFileAtomicSyncFactory = wrapFactory("fs$writeJSONFileAtomicSync", function fs$writeJSONFileAtomicSyncFactory(new_context) { return p; });
 
 /* util/parseCommandLineArgs */
-import p from "../export/util/parseCommandLineArgs.mjs"
-export const util$parseCommandLineArgs = wrapFunction("util$parseCommandLineArgs", p);
-export const util$parseCommandLineArgsFactory = wrapFactory("util$parseCommandLineArgs", function util$parseCommandLineArgsFactory(new_context) { return p; });
+import q from "../export/util/parseCommandLineArgs.mjs"
+export const util$parseCommandLineArgs = wrapFunction("util$parseCommandLineArgs", q);
+export const util$parseCommandLineArgsFactory = wrapFactory("util$parseCommandLineArgs", function util$parseCommandLineArgsFactory(new_context) { return q; });
 
 /* util/randomIdentifierSync */
-import q from "../export/util/randomIdentifierSync.mjs"
-export const util$randomIdentifierSync = wrapFunction("util$randomIdentifierSync", q);
-export const util$randomIdentifierSyncFactory = wrapFactory("util$randomIdentifierSync", function util$randomIdentifierSyncFactory(new_context) { return q; });
+import r from "../export/util/randomIdentifierSync.mjs"
+export const util$randomIdentifierSync = wrapFunction("util$randomIdentifierSync", r);
+export const util$randomIdentifierSyncFactory = wrapFactory("util$randomIdentifierSync", function util$randomIdentifierSyncFactory(new_context) { return r; });

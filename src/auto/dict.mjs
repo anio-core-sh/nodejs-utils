@@ -28,14 +28,16 @@ import {
     fs$removeDirectorySyncFactory          as x,
     fs$removeFileSync                      as y,
     fs$removeFileSyncFactory               as z,
-    fs$writeFileAtomicSync                 as ba,
-    fs$writeFileAtomicSyncFactory          as bb,
-    fs$writeJSONFileAtomicSync             as bc,
-    fs$writeJSONFileAtomicSyncFactory      as bd,
-    util$parseCommandLineArgs              as be,
-    util$parseCommandLineArgsFactory       as bf,
-    util$randomIdentifierSync              as bg,
-    util$randomIdentifierSyncFactory       as bh
+    fs$scandirSync                         as ba,
+    fs$scandirSyncFactory                  as bb,
+    fs$writeFileAtomicSync                 as bc,
+    fs$writeFileAtomicSyncFactory          as bd,
+    fs$writeJSONFileAtomicSync             as be,
+    fs$writeJSONFileAtomicSyncFactory      as bf,
+    util$parseCommandLineArgs              as bg,
+    util$parseCommandLineArgsFactory       as bh,
+    util$randomIdentifierSync              as bi,
+    util$randomIdentifierSyncFactory       as bj
 } from "./library.mjs";
 
 export default {
@@ -65,12 +67,14 @@ export default {
     "fs/removeDirectorySyncFactory.mjs"     : x,
     "fs/removeFileSync.mjs"                 : y,
     "fs/removeFileSyncFactory.mjs"          : z,
-    "fs/writeFileAtomicSync.mjs"            : ba,
-    "fs/writeFileAtomicSyncFactory.mjs"     : bb,
-    "fs/writeJSONFileAtomicSync.mjs"        : bc,
-    "fs/writeJSONFileAtomicSyncFactory.mjs" : bd,
-    "util/parseCommandLineArgs.mjs"         : be,
-    "util/parseCommandLineArgsFactory.mjs"  : bf,
-    "util/randomIdentifierSync.mjs"         : bg,
-    "util/randomIdentifierSyncFactory.mjs"  : bh
+    "fs/scandirSync.mjs"                    : ba,
+    "fs/scandirSyncFactory.mjs"             : bb,
+    "fs/writeFileAtomicSync.mjs"            : bc,
+    "fs/writeFileAtomicSyncFactory.mjs"     : bd,
+    "fs/writeJSONFileAtomicSync.mjs"        : be,
+    "fs/writeJSONFileAtomicSyncFactory.mjs" : bf,
+    "util/parseCommandLineArgs.mjs"         : bg,
+    "util/parseCommandLineArgsFactory.mjs"  : bh,
+    "util/randomIdentifierSync.mjs"         : bi,
+    "util/randomIdentifierSyncFactory.mjs"  : bj
 };
