@@ -13,6 +13,10 @@
       "import": "./build/submodule/util.mjs"
     }
   },
+  "files": [
+    "./build/*.mjs",
+    "./build/submodule/*.mjs"
+  ],
   "scripts": {
     "prepare": "anio-jsbundler ."
   },
