@@ -28,12 +28,12 @@ import {
     fs$readFileJSONSyncFactory                as u,
     fs$readFileStringSync                     as v,
     fs$readFileStringSyncFactory              as w,
-    fs$remove                                 as x,
-    fs$removeFactory                          as y,
-    fs$removeDirectorySync                    as z,
-    fs$removeDirectorySyncFactory             as ba,
-    fs$removeFileSync                         as bb,
-    fs$removeFileSyncFactory                  as bc,
+    fs$removeDirectorySync                    as x,
+    fs$removeDirectorySyncFactory             as y,
+    fs$removeFileSync                         as z,
+    fs$removeFileSyncFactory                  as ba,
+    fs$removeSync                             as bb,
+    fs$removeSyncFactory                      as bc,
     fs$scandirSync                            as bd,
     fs$scandirSyncFactory                     as be,
     fs$writeFileAtomicSync                    as bf,
@@ -71,12 +71,12 @@ export const fs$readFileJSONSync               = t;
 export const fs$readFileJSONSyncFactory        = u;
 export const fs$readFileStringSync             = v;
 export const fs$readFileStringSyncFactory      = w;
-export const fs$remove                         = x;
-export const fs$removeFactory                  = y;
-export const fs$removeDirectorySync            = z;
-export const fs$removeDirectorySyncFactory     = ba;
-export const fs$removeFileSync                 = bb;
-export const fs$removeFileSyncFactory          = bc;
+export const fs$removeDirectorySync            = x;
+export const fs$removeDirectorySyncFactory     = y;
+export const fs$removeFileSync                 = z;
+export const fs$removeFileSyncFactory          = ba;
+export const fs$removeSync                     = bb;
+export const fs$removeSyncFactory              = bc;
 export const fs$scandirSync                    = bd;
 export const fs$scandirSyncFactory             = be;
 export const fs$writeFileAtomicSync            = bf;
@@ -114,12 +114,12 @@ export default {
     fs$readFileJSONSyncFactory                 : u,
     fs$readFileStringSync                      : v,
     fs$readFileStringSyncFactory               : w,
-    fs$remove                                  : x,
-    fs$removeFactory                           : y,
-    fs$removeDirectorySync                     : z,
-    fs$removeDirectorySyncFactory              : ba,
-    fs$removeFileSync                          : bb,
-    fs$removeFileSyncFactory                   : bc,
+    fs$removeDirectorySync                     : x,
+    fs$removeDirectorySyncFactory              : y,
+    fs$removeFileSync                          : z,
+    fs$removeFileSyncFactory                   : ba,
+    fs$removeSync                              : bb,
+    fs$removeSyncFactory                       : bc,
     fs$scandirSync                             : bd,
     fs$scandirSyncFactory                      : be,
     fs$writeFileAtomicSync                     : bf,

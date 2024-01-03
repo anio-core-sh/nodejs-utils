@@ -13,19 +13,19 @@ export function getUsedDefaultContext() {
 }
 
 /* fs/chmodSync */
-import a from "../export/fs/chmodSync.mjs"
-export const fs$chmodSync = wrapFunction("fs$chmodSync", a);
-export const fs$chmodSyncFactory = wrapFactory("fs$chmodSync", function fs$chmodSyncFactory(new_context) { return a; });
+import a from "../export/fs/chmodSyncFactory.mjs"
+export const fs$chmodSync = wrapFunction("fs$chmodSync", a(_module_default_context));
+export const fs$chmodSyncFactory = wrapFactory("fs$chmodSync", a);
 
 /* fs/copyDirectorySync */
-import b from "../export/fs/copyDirectorySync.mjs"
-export const fs$copyDirectorySync = wrapFunction("fs$copyDirectorySync", b);
-export const fs$copyDirectorySyncFactory = wrapFactory("fs$copyDirectorySync", function fs$copyDirectorySyncFactory(new_context) { return b; });
+import b from "../export/fs/copyDirectorySyncFactory.mjs"
+export const fs$copyDirectorySync = wrapFunction("fs$copyDirectorySync", b(_module_default_context));
+export const fs$copyDirectorySyncFactory = wrapFactory("fs$copyDirectorySync", b);
 
 /* fs/createDirectorySync */
-import c from "../export/fs/createDirectorySync.mjs"
-export const fs$createDirectorySync = wrapFunction("fs$createDirectorySync", c);
-export const fs$createDirectorySyncFactory = wrapFactory("fs$createDirectorySync", function fs$createDirectorySyncFactory(new_context) { return c; });
+import c from "../export/fs/createDirectorySyncFactory.mjs"
+export const fs$createDirectorySync = wrapFunction("fs$createDirectorySync", c(_module_default_context));
+export const fs$createDirectorySyncFactory = wrapFactory("fs$createDirectorySync", c);
 
 /* fs/getTypeOfPathSync */
 import d from "../export/fs/getTypeOfPathSync.mjs"
@@ -53,29 +53,29 @@ export const fs$isRegularFileSync = wrapFunction("fs$isRegularFileSync", h);
 export const fs$isRegularFileSyncFactory = wrapFactory("fs$isRegularFileSync", function fs$isRegularFileSyncFactory(new_context) { return h; });
 
 /* fs/readFileJSONSync */
-import i from "../export/fs/readFileJSONSync.mjs"
-export const fs$readFileJSONSync = wrapFunction("fs$readFileJSONSync", i);
-export const fs$readFileJSONSyncFactory = wrapFactory("fs$readFileJSONSync", function fs$readFileJSONSyncFactory(new_context) { return i; });
+import i from "../export/fs/readFileJSONSyncFactory.mjs"
+export const fs$readFileJSONSync = wrapFunction("fs$readFileJSONSync", i(_module_default_context));
+export const fs$readFileJSONSyncFactory = wrapFactory("fs$readFileJSONSync", i);
 
 /* fs/readFileStringSync */
-import j from "../export/fs/readFileStringSync.mjs"
-export const fs$readFileStringSync = wrapFunction("fs$readFileStringSync", j);
-export const fs$readFileStringSyncFactory = wrapFactory("fs$readFileStringSync", function fs$readFileStringSyncFactory(new_context) { return j; });
-
-/* fs/remove */
-import k from "../export/fs/remove.mjs"
-export const fs$remove = wrapFunction("fs$remove", k);
-export const fs$removeFactory = wrapFactory("fs$remove", function fs$removeFactory(new_context) { return k; });
+import j from "../export/fs/readFileStringSyncFactory.mjs"
+export const fs$readFileStringSync = wrapFunction("fs$readFileStringSync", j(_module_default_context));
+export const fs$readFileStringSyncFactory = wrapFactory("fs$readFileStringSync", j);
 
 /* fs/removeDirectorySync */
-import l from "../export/fs/removeDirectorySync.mjs"
-export const fs$removeDirectorySync = wrapFunction("fs$removeDirectorySync", l);
-export const fs$removeDirectorySyncFactory = wrapFactory("fs$removeDirectorySync", function fs$removeDirectorySyncFactory(new_context) { return l; });
+import k from "../export/fs/removeDirectorySyncFactory.mjs"
+export const fs$removeDirectorySync = wrapFunction("fs$removeDirectorySync", k(_module_default_context));
+export const fs$removeDirectorySyncFactory = wrapFactory("fs$removeDirectorySync", k);
 
 /* fs/removeFileSync */
-import m from "../export/fs/removeFileSync.mjs"
-export const fs$removeFileSync = wrapFunction("fs$removeFileSync", m);
-export const fs$removeFileSyncFactory = wrapFactory("fs$removeFileSync", function fs$removeFileSyncFactory(new_context) { return m; });
+import l from "../export/fs/removeFileSyncFactory.mjs"
+export const fs$removeFileSync = wrapFunction("fs$removeFileSync", l(_module_default_context));
+export const fs$removeFileSyncFactory = wrapFactory("fs$removeFileSync", l);
+
+/* fs/removeSync */
+import m from "../export/fs/removeSyncFactory.mjs"
+export const fs$removeSync = wrapFunction("fs$removeSync", m(_module_default_context));
+export const fs$removeSyncFactory = wrapFactory("fs$removeSync", m);
 
 /* fs/scandirSync */
 import n from "../export/fs/scandirSync.mjs"
@@ -83,14 +83,14 @@ export const fs$scandirSync = wrapFunction("fs$scandirSync", n);
 export const fs$scandirSyncFactory = wrapFactory("fs$scandirSync", function fs$scandirSyncFactory(new_context) { return n; });
 
 /* fs/writeFileAtomicSync */
-import o from "../export/fs/writeFileAtomicSync.mjs"
-export const fs$writeFileAtomicSync = wrapFunction("fs$writeFileAtomicSync", o);
-export const fs$writeFileAtomicSyncFactory = wrapFactory("fs$writeFileAtomicSync", function fs$writeFileAtomicSyncFactory(new_context) { return o; });
+import o from "../export/fs/writeFileAtomicSyncFactory.mjs"
+export const fs$writeFileAtomicSync = wrapFunction("fs$writeFileAtomicSync", o(_module_default_context));
+export const fs$writeFileAtomicSyncFactory = wrapFactory("fs$writeFileAtomicSync", o);
 
 /* fs/writeJSONFileAtomicSync */
-import p from "../export/fs/writeJSONFileAtomicSync.mjs"
-export const fs$writeJSONFileAtomicSync = wrapFunction("fs$writeJSONFileAtomicSync", p);
-export const fs$writeJSONFileAtomicSyncFactory = wrapFactory("fs$writeJSONFileAtomicSync", function fs$writeJSONFileAtomicSyncFactory(new_context) { return p; });
+import p from "../export/fs/writeJSONFileAtomicSyncFactory.mjs"
+export const fs$writeJSONFileAtomicSync = wrapFunction("fs$writeJSONFileAtomicSync", p(_module_default_context));
+export const fs$writeJSONFileAtomicSyncFactory = wrapFactory("fs$writeJSONFileAtomicSync", p);
 
 /* util/parseCommandLineArgs */
 import q from "../export/util/parseCommandLineArgs.mjs"
