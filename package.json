@@ -24,7 +24,7 @@
   "license": "MIT",
   "devDependencies": {
     "@anio-jsbundler/project": "^0.2.0",
-    "anio-jsbundler": "^0.5.2"
+    "anio-jsbundler": "^0.6.0"
   },
   "dependencies": {
     "@anio-js-foundation/fs-scandir-sync": "^1.0.1"
