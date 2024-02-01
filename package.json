@@ -1,6 +1,6 @@
 {
   "name": "@anio-core-sh/nodejs-utils",
-  "version": "0.10.1",
+  "version": "0.10.2",
   "description": "",
   "exports": {
     ".": {
