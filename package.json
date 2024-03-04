@@ -22,11 +22,9 @@
   },
   "author": "",
   "license": "MIT",
-  "dependencies": {
-    "@anio-js-core-foundation/node-fs-scandir-sync": "^1.0.0"
-  },
   "devDependencies": {
     "@anio-gyp/project": "^0.3.2",
+    "@anio-node-foundation/fs-scandir": "^2.0.1",
     "anio-gyp": "^0.14.0"
   },
   "repository": {

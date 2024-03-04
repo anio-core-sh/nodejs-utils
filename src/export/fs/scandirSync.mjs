@@ -5,7 +5,9 @@ export default {
 
 	fn(modifiers, dir) {
 		if (modifiers[0] === "reverse") {
-			return scandir.reverse(dir)
+			return scandir(dir, {
+				reverse: true
+			})
 		}
 
 		return scandir(dir)
